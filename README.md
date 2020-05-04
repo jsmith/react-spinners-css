@@ -89,6 +89,7 @@ render() {
        <Heart color={getRandomColor()} />
        <Facebook /> //default color is #7f58af
        <Facebook color="red" />
+       <Facebook color="currentColor" style={{ color: "red" }} />
      </div>
    )
 }
